@@ -1,0 +1,122 @@
+/* Container for the register form */
+.registerFormContainer {
+  width: 650px;
+  height: 700px;
+  max-width: 100%;
+  margin: 30px 10px 30px 300px;
+  padding: 20px;
+  background-color: #f7f7f7;
+  /* background-image: url('pro.jpeg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center; */
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  color: rgb(12, 12, 12);
+  margin-left: 450px;
+  margin-bottom: 300px;
+}
+
+.formTitle {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.cancelButton {
+  position: absolute;
+  top: 80px;
+  right: 400px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: #e61f1f;
+}
+
+.doctorRegisterForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formFieldsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.formFieldGroup {
+  width: 100%;
+}
+
+.inputLabel {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 8px;
+  color: #2c2a2a;
+}
+
+.inputField {
+  width: 80%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.inputField:focus {
+  outline: 2px solid #4caf50;
+}
+
+/* Style for select inputs */
+select.inputField {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #6b6969;
+  font-size: 1rem;
+  width: 310px;
+}
+
+/* Style for date input fields */
+input[type="date"].inputField {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+/* Error messages */
+.errorText {
+  color: red;
+  font-size: 0.9rem;
+}
+
+/* Submit button style */
+.submitButton {
+  width: 20%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-left: 230px;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+input{
+  color: #625f5f;
+}

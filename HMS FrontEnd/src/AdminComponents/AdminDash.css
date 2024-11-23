@@ -1,0 +1,83 @@
+/* Reset styles for buttons */
+button {
+  all: unset; /* Removes all default styles (background, border, etc.) */
+}
+
+/* Styles for the header bar */
+.headerBar {
+  color: white;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  background-color: cornflowerblue;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+/* Logo section */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 50px;
+  width: 40px;
+  padding: 4px;
+  margin-top: 5px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-top: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+.nav-link{ /* Combine nav-link and logout-button styles */
+  color: white; /* Ensure white text */
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background: none; /* Remove default background for the button */
+  border: none; /* Remove default border for the button */
+}
+
+.nav-link:hover,
+.logout-button:hover { /* Apply hover effect to both nav-link and logout-button */
+  background-color: #3455c1;
+  color: white; /* Maintain text color on hover */
+}
+
+/* Remove focus outline for logout button */
+.logout-button:focus {
+  outline: none;
+}
+
+/* Main content area */
+.content {
+  position: relative;
+ 
+}
+.logout-button{
+  background-color: aquamarine;
+}
+
