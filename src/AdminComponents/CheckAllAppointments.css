@@ -1,0 +1,117 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  .admincheckh1 {
+    text-align: center;
+    color: #4a90e2;
+    margin: 20px 0;
+    font-size: 28px;
+  }
+  
+
+  .adminchecktable {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  .admincheckthead {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  thead th {
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  tbody td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .admincheckbutton {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .admincheckbutton[disabled] {
+    background-color: #aaaaaa;
+    cursor: not-allowed;
+    font-style: oblique;
+  }
+  
+  .admincheckbutton:not([disabled]) {
+    background-color: #68be68;
+    color: white;
+  }
+  
+  .admincheckbutton:not([disabled]):hover {
+    background-color: #0fbe3e;
+  }
+  
+  .admincheckbutton.assign {
+    background-color: #344d68;
+    color: white;
+  }
+  
+  .admincheckbutton.assign:hover {
+    background-color: #0056b3;
+  }
+  
+  .cancel-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .admincheckbuttoncancel{
+    background-color: #d32114;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+  }
+  
+  .admincheckbuttoncancel:hover {
+    background-color: #d32f2f;
+  }
+  
+  .admincheckbuttoncancel[disabled] {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+
+  .adminchecktable {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  

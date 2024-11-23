@@ -1,0 +1,100 @@
+/* General Container */
+.view-appointment {
+  margin: 80px auto;
+  padding: 20px;
+  max-width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  margin-top: 300px;
+  text-align: center;
+  color: black;
+  margin-top: 800px;
+}
+
+/* Table Styling */
+.appointment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Row */
+.appointment-table thead {
+  background-color: #3f87a6;
+  color: white;
+}
+
+.appointment-table th {
+  padding: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Data Rows */
+.appointment-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Alternate Row Coloring for Readability */
+.appointment-table tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+/* Cancel Button */
+.cancel-button {
+  color: white;
+  background-color: #e63946;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: background-color 0.3s;
+}
+
+.cancel-button:hover {
+  background-color: #c92d3d;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin: 20px 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .appointment-table, .appointment-table thead, .appointment-table tbody, .appointment-table th, .appointment-table td, .appointment-table tr {
+    display: block;
+  }
+  .appointment-table thead tr {
+    display: none;
+  }
+  .appointment-table tr {
+    margin-bottom: 10px;
+  }
+  .appointment-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  .appointment-table td::before {
+    content: attr(data-label);
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #555;
+  }
+}
+

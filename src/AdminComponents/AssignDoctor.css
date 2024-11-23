@@ -1,0 +1,86 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  color: black;
+}
+
+.modal-content {
+  background: #ffffff; /* Clean white background */
+  padding: 25px;
+  border-radius: 10px;
+  width: 450px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  font-family: Arial, sans-serif;
+}
+
+.adminassignh2 {
+  margin: 0 0 15px;
+  text-align: center;
+  color: #4a90e2; /* Nice blue color for the heading */
+  font-size: 22px;
+}
+
+.adminassignform {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.adminassignform div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.adminassignform div label {
+  font-weight: bold;
+}
+
+.adminassignform div p {
+  margin: 0;
+}
+
+.adminassignselect {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.adminassignbuttonbtn {
+  background-color: #d32f2f; /* Red color */
+  color: rgb(183, 51, 51); /* White text for contrast */
+  text-align: center; /* Center text horizontally */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; /* Center text horizontally */
+  align-items: center; /* Center text vertically */
+}
+
+.adminassignbuttonbtn:hover {
+  background-color: #b71c1c; /* Darker red for hover effect */
+}
+
+
+
+.adminassignbuttonsubmit {
+  background-color: #c04a26;
+  color: white;
+  
+}
+
+.adminassignbutton:hover {
+  opacity: 0.9;
+}

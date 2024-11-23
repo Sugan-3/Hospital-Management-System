@@ -1,0 +1,40 @@
+.view-doctors-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.doctors-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doctors-table th,
+.doctors-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.doctors-table th {
+  background-color: #4a90e2;
+  color: white;
+  font-weight: bold;
+}
+
+.doctors-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.doctors-table tr:hover {
+  background-color: #f1f1f1;
+}
